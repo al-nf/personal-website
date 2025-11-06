@@ -19,9 +19,6 @@ export function Education() {
                 <div className="space-y-12">
                     <div className="space-y-4">
                         <h2 className="text-3xl md:text-4xl font-bold text-balance">Education</h2>
-                        <p className="text-lg text-muted-foreground leading-relaxed">
-                            Formal training and academic highlights.
-                        </p>
                     </div>
 
                     <div className="space-y-8">

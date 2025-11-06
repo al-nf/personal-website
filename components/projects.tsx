@@ -35,9 +35,6 @@ export function Projects() {
                 <div className="space-y-12">
                     <div className="space-y-4">
                         <h2 className="text-3xl md:text-4xl font-bold text-balance">Featured Projects</h2>
-                        <p className="text-lg text-muted-foreground leading-relaxed">
-                            A selection of projects I've worked on recently.
-                        </p>
                     </div>
 
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

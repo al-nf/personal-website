@@ -19,9 +19,6 @@ export function Experience() {
                 <div className="space-y-12">
                     <div className="space-y-4">
                         <h2 className="text-3xl md:text-4xl font-bold text-balance">Experience</h2>
-                        <p className="text-lg text-muted-foreground leading-relaxed">
-                            My blossoming professional journey!
-                        </p>
                     </div>
 
                     <div className="space-y-8">
