@@ -9,7 +9,7 @@ export function About() {
                     <div className="space-y-4">
                         <h2 className="text-3xl md:text-4xl font-bold text-balance">About Me</h2>
                         <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl">
-                            I'm an engineer passionate about learning new things. I have been working on expanding my skills both in hardware and software. My strength lies in my flexibility to succeed with any team using a wide variety of tech.
+                            I'm an electrical engineering student with a passion for building systems across the full stack—from firmware on ARM Cortex-M microcontrollers to cloud-native backends on AWS. My work spans embedded systems, machine learning research, and production infrastructure, always focused on creating robust, real-world solutions.
                         </p>
                     </div>
 
@@ -30,7 +30,7 @@ export function About() {
                             </div>
                             <h3 className="text-xl font-semibold">Adaptive</h3>
                             <p className="text-muted-foreground leading-relaxed">
-                                I'm always hunting to find a way to further expand and diversify my skillset. Through work in and out of school, I've explored machine learning, API development, FPGAs, and more.
+                                Continuously expanding my technical range across embedded firmware, cloud architecture, machine learning research, and systems programming. Comfortable working anywhere from interrupt-driven microcontroller code to distributed AWS services.
                             </p>
                         </Card>
 
@@ -40,7 +40,7 @@ export function About() {
                             </div>
                             <h3 className="text-xl font-semibold">Fast Learner</h3>
                             <p className="text-muted-foreground leading-relaxed">
-                                Because I'm interested in so many things, I have honed my ability to quickly develop skills. Outside of school, I've had to learn programming languages (C++, Go, Rust) and developer tools (Git, Nix, AWS) in as little as hours.
+                                Rapidly acquiring new skills across hardware and software domains. Self-taught in Go, Rust, AWS infrastructure, Linux systems administration, and bare-metal firmware development—moving from concept to implementation in days, not months.
                             </p>
                         </Card>
                     </div>

@@ -16,7 +16,7 @@ export function Hero() {
                     </div>
 
                     <p className="text-lg text-muted-foreground leading-relaxed max-w-2xl">
-                        I am a self-motivated electrical engineering undergraduate focusing on embedded systems, with an interest in higher-level software such as machine learning and backend engineering. Passionate about building practical solutions that make a difference.
+                        Electrical engineering student at Santa Clara University specializing in embedded systems and firmware development. Building production systems from bare-metal ARM microcontrollers to cloud infrastructure—bridging hardware and software to create practical, scalable solutions.
                     </p>
 
                     <div className="flex items-center gap-4 pt-4">

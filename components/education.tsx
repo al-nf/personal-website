@@ -7,8 +7,8 @@ const educations = [
         school: "Santa Clara University",
         period: "2024 - Present",
         description:
-            "Emphasis on systems. Relevant coursework: Data Structures and Algorithms, Object Oriented Programming, Microprocessor System Design, Calculus IV, Differential Equations.",
-        highlights: ["GPA: 3.8", "Undergraduate Research"],
+            "Emphasis on embedded systems and computer architecture. Relevant coursework: Microprocessor System Design, Computer Architecture, Object-Oriented Programming, Abstract Data Types and Data Structures, Electric Circuits I/II, Linear Algebra, Differential Equations, Discrete Mathematics.",
+        highlights: ["GPA: 3.81", "Undergraduate Research"],
     },
 ]
 

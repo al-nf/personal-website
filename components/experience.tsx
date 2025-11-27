@@ -7,8 +7,8 @@ const experiences = [
         company: "Santa Clara University Information Processing and Machine Learning Laboratory",
         period: "May 2025 - Present",
         description:
-            "Finding the best model architectures and data processing techniques to improve machine learning in low-resource environments. Wrote scripts to generate spectrograms and built models for testing.",
-        skills: ["NumPy", "Pandas", "PyTorch", "MATLAB", "Signal Processing"],
+            "Contributing to research on data supplementation for ML models in low-resource settings. Implemented ResNet18 achieving 95% accuracy for speaker identification via spectrograms. Built GAN for synthetic data generation with 1.15 generator-discriminator loss ratio, and developed Python pipeline for mel-log spectrogram generation from audio.",
+        skills: ["PyTorch", "Python", "ResNet18", "GANs", "Signal Processing", "MATLAB"],
     },
 ]
 
