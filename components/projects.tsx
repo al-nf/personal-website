@@ -5,26 +5,39 @@ import { ExternalLink, Github } from "lucide-react"
 
 const projects = [
     {
-        title: "Embark",
-        description:
-            "A platform to encourage users to explore California's national parks, raising awareness about the effects of climate change and wildfires on our parks.",
-        image: "/embark.png",
-        tags: ["SvelteKit", "Go", "Firebase", "OAuth 2.0"],
-        github: "https://github.com/team-embark/embark",
-    },
-    {
         title: "Bons.ai",
-        description: "An AI-powered study app for students, featuring endless problem generation, a scoreboard to compete with friends, and LaTeX rendering.",
+        description: "Production-grade REST API powering an AI study platform. Built secure authentication with Aurora MySQL and JWTs, integrated Amazon Bedrock's GPT-120B for LaTeX math generation, and deployed on AWS Elastic Beanstalk with reproducible Nix environments.",
         image: "/bonsai.png",
-        tags: ["React", "Go", "AWS", "MySQL", "Nix"],
+        tags: ["Go", "AWS", "Aurora MySQL", "Bedrock AI", "Nix"],
         github: "https://github.com/bonsdotai/bons.ai",
     },
     {
-        title: "Matrix calculator",
-        description: "Command-line tool to quickly input matrices and calculate their determinants, products, and inverses. Developed because MATLAB takes too long to launch.",
-        image: "/matrix.png",
-        tags: ["Rust"],
-        github: "https://github.com/al-nf/matrix",
+        title: "Personal Homelab",
+        description: "Self-hosted infrastructure with Raspberry Pi and Linux hosts. Developed Go-based Wake-on-LAN server, implemented systemd services for automation, and created Discord-integrated microcontroller control system—all secured via Tailscale zero-trust networking.",
+        image: "/homelab.png",
+        tags: ["Go", "Linux", "Raspberry Pi", "Tailscale", "systemd"],
+        github: "https://github.com/al-nf",
+    },
+    {
+        title: "LED Light Strip Controller",
+        description: "Bare-metal embedded system on STM32 ARM Cortex-M. Implemented interrupt-driven joystick input via EXTI, built software SPI driver from scratch to control 60-LED SK9822 RGB strip with real-time pattern updates.",
+        image: "/led-controller.png",
+        tags: ["STM32", "ARM32", "C", "SPI", "Embedded"],
+        github: "https://github.com/al-nf",
+    },
+    {
+        title: "Embark",
+        description: "RESTful API built in 24 hours for a hackathon finalist project among 50+ teams. Implemented Google OAuth authentication and integrated Firebase SDK for document-oriented data management in a California national parks exploration platform.",
+        image: "/embark.png",
+        tags: ["Go", "Firebase", "OAuth 2.0", "REST API"],
+        github: "https://github.com/team-embark/embark",
+    },
+    {
+        title: "Waveform Modulator",
+        description: "STM32-based signal generator using dual ADCs to sample potentiometer inputs for frequency and amplitude control. Generated modulated waveforms via DAC with timer-driven updates, validated on oscilloscope.",
+        image: "/waveform.png",
+        tags: ["STM32", "ARM32", "ADC/DAC", "C"],
+        github: "https://github.com/al-nf",
     },
 ]
 
@@ -62,16 +75,6 @@ export function Projects() {
                                                 Code
                                             </a>
                                         </Button>
-                                        {
-                                            /*
-                                            <Button size="sm" className="gap-2" asChild>
-                                              <a href={project.demo} target="_blank" rel="noopener noreferrer">
-                                                <ExternalLink className="h-4 w-4" />
-                                                Demo
-                                              </a>
-                                            </Button>
-                                            */
-                                        }
                                     </div>
                                 </div>
                             </Card>
