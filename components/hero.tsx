@@ -16,7 +16,7 @@ export function Hero() {
                     </div>
 
                     <p className="text-lg text-muted-foreground leading-relaxed max-w-2xl">
-                        Electrical engineering student at Santa Clara University specializing in embedded systems and firmware development. Building production systems from bare-metal ARM microcontrollers to cloud infrastructure—bridging hardware and software to create practical, scalable solutions.
+                        Electrical engineering student at Santa Clara University specializing in embedded systems and firmware development. Building production systems from bare-metal ARM microcontrollers to cloud infrastructure, bridging hardware and software to solve various problems.
                     </p>
 
                     <div className="flex items-center gap-4 pt-4">
